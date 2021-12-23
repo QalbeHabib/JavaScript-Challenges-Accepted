@@ -35,7 +35,7 @@ function add_image() {
   addimages.src = "./download.png";
 
   document.getElementById("res2").appendChild(addimages);
-  addimages.setAttribute("id", "imgs"); // This is for removing images in the remove function (at line 42)
+  addimages.setAttribute("id", "imgs"); // This is for removing images in the remove function (at line 40)
 }
 function remove_image() {
   document.getElementById("imgs").remove();
